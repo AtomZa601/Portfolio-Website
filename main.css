@@ -1,0 +1,272 @@
+h1{
+    background-color: rgb(91, 202, 169);
+    margin-left: 30 px;
+    padding-left: 30 px;
+    padding-top: 10 px;
+    padding-bottom: 10 px;
+}
+span{
+    background-color: rgb(223, 248, 201);
+}
+li{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14pt;
+    text-align: center;
+}
+.grid-container {
+	display:grid;
+	grid-template-columns: 10% auto 20%;
+	grid-gap:10px;  
+}
+.grid-container > div{
+    border: 3px solid black;
+	text-align: center;
+	background-color: rgb(223, 248, 201);
+}
+#header{
+	grid-column: 1 / span 3;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14pt;
+    text-align: center;
+}
+#main1{
+	grid-column: 1 / span 1;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14pt;
+    text-align: center;
+}
+#main2{
+	grid-column: 2 / span 1;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14pt;
+    text-align: left;
+}
+#right{
+	grid-column: 3 / span 1;	
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14pt;
+    text-align: center;
+}
+#chicken{
+    width: 70%;
+    border: 10px dotted rgb(85, 138, 120);
+    float:center;
+}
+#chicken1{
+    width: 75%;
+    border: 10px dotted rgb(85, 138, 120);
+    border-radius: 40px;
+    float:center;
+}
+#me_pic{
+    width: 30%;
+    border: 10px dotted rgb(85, 138, 120);
+    float:left;
+}
+#S_project{
+    width: 23%;
+    border: 10px dotted rgb(85, 138, 120);
+    float:left;
+}
+#Matica{
+    width: 16%;
+    border: 10px dotted rgb(85, 138, 120);
+    float:left;
+}
+#video{
+    float: center;
+    width : 45%;
+}
+#footer{
+	grid-column: 1 / span 3;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14pt;
+    text-align: center;
+}
+#footer>div>img{
+	width:20%;
+}
+
+@media only screen and (max-width: 768px) {
+	h1{
+		background-color: rgb(91, 202, 169);
+		margin-left: 30 px;
+		padding-left: 30 px;
+		padding-top: 10 px;
+		padding-bottom: 10 px;
+	}
+    span{
+        background-color: rgb(223, 248, 201);
+    }
+    li{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 14pt;
+        text-align: center;
+    }
+	.grid-container {
+		display:grid;
+		grid-template-columns: auto;
+		grid-gap:10px;  
+	}
+	.grid-container > div{
+		border: 3px solid black;
+		text-align: center;
+		background-color: rgb(223, 248, 201);
+	}
+	#header{
+		grid-column: 1 / span 2;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 14pt;
+        text-align: center;
+	}
+	#main1{
+		grid-column: 1 / span 1;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 14pt;
+        text-align: center;
+	}
+	#right{
+		grid-column: 2 / span 1;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 14pt;
+        text-align: center;
+	}
+	#main2{
+		grid-column: 1 / span 2;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 14pt;
+        text-align: left;
+	}
+	#footer{
+		grid-column: 1 / span 2;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 14pt;
+        text-align: center;	
+	}
+	#footer>div>img{
+		display: wrap;
+		width:20%;
+	}
+	#chicken{
+		width: 30%;
+		border: 10px dotted rgb(85, 138, 120);
+		float:center;
+	}
+	#chicken1{
+		width: 30%;
+		border: 10px dotted rgb(85, 138, 120);
+		border-radius: 40px;
+		float:center;
+	}
+    #me_pic{
+        width: 25%;
+        border: 10px dotted rgb(85, 138, 120);
+        float:left;
+    }
+    #S_project{
+        width: 23%;
+        border: 10px dotted rgb(85, 138, 120);
+        float:left;
+    }
+    #Matica{
+        width: 15%;
+        border: 10px dotted rgb(85, 138, 120);
+        float:left;
+    }
+    #video{
+        float: center;
+        width : 45%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+	h1{
+		background-color: rgb(91, 202, 169);
+		margin-left: 30 px;
+		padding-left: 30 px;
+		padding-top: 10 px;
+		padding-bottom: 10 px;
+	}
+    span{
+        background-color: rgb(223, 248, 201);
+    }
+    li{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 10pt;
+        text-align: center;
+    }
+	.grid-container {
+		display:grid;
+		grid-template-columns: auto;
+		grid-gap:10px;
+	}
+	.grid-container > div{
+		border: 3px solid black;
+		text-align: center;
+		background-color: rgb(223, 248, 201);
+	}
+	#header{
+		grid-column: 1 / span 1;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 14pt;
+        text-align: center;
+	}
+	
+	#main1{
+		grid-column: 1 / span 1;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 14pt;
+        text-align: center;
+	}
+	#main2{
+		grid-column: 1 / span 1;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 10pt;
+        text-align: left;
+	}
+	#right{
+		grid-column: 1 / span 1;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 14pt;
+        text-align: center;
+	}
+	#footer{
+		grid-column: 1 / span 1;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 14pt;
+        text-align: center;
+	}
+	#footer>div>img{
+		width:20%;
+		}		
+	#chicken{
+		width: 25%;
+		border: 10px dotted rgb(85, 138, 120);
+		float:center;
+	}
+	#chicken1{
+		width: 25%;
+		border: 10px dotted rgb(85, 138, 120);
+		border-radius: 40px;
+		float:center;
+	}
+    #me_pic{
+        width: 25%;
+        border: 10px dotted rgb(85, 138, 120);
+        float:left;
+    }
+    #S_project{
+        width: 23%;
+        border: 10px dotted rgb(85, 138, 120);
+        float:left;
+    }
+    #Matica{
+        width: 15%;
+        border: 10px dotted rgb(85, 138, 120);
+        float:left;
+    }
+    #video{
+        float: center;
+        width : 45%;
+    }
+}
